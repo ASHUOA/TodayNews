@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fanyishuo.zailai.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#ff00"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/dianji"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="?attr/touxiang"
+            android:layout_marginRight="20dp"/>
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:src="?attr/zi"
+            android:layout_marginLeft="95dp"/>
+        <ImageView
+            android:onClick="shuaxi"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quanye"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="?attr/sousuo"
+            android:layout_marginLeft="175dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tabIndicatorColor="#ff9999"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#ffff00"
+            app:tabTextColor="#9900ff"
+            app:tabTextAppearance="@style/title"
+            ></android.support.design.widget.TabLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

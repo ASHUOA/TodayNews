@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorValue" format="color"></attr>
+    <attr name="textContent" format="string"></attr>
+    <attr name="pic" format="dimension"></attr>
+    <attr name="weixin" format="dimension"></attr>
+    <attr name="qq" format="dimension"></attr>
+    <attr name="xinlang" format="dimension"></attr>
+<!--侧拉里的-->
+    <attr name="haoyou" format="dimension"></attr>
+    <attr name="huati" format="dimension"></attr>
+    <attr name="shoucang" format="dimension"></attr>
+    <attr name="huodong" format="dimension"></attr>
+    <attr name="shangcheng" format="dimension"></attr>
+    <!--主页面-->
+    <attr name="touxiang" format="dimension"></attr>
+    <attr name="quan" format="dimension"></attr>
+    <attr name="sousuo" format="dimension"></attr>
+    <attr name="zi" format="dimension"></attr>
+
+
+    <!--右侧啦-->
+    <attr name="qqdenglu" format="dimension"></attr>
+    <attr name="xinlangdenglu" format="dimension"></attr>
+    <attr name="tengxundenglu" format="dimension"></attr>
+
+
+</resources>
